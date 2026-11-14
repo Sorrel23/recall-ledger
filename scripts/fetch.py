@@ -221,6 +221,7 @@ def merge(records):
 
 def main():
     cfg = load_config()
+    os.makedirs(DATA, exist_ok=True)
     empty = not any(f.endswith(".json") for _, _, fs in os.walk(DATA) for f in fs if f != "status.json")
     days = cfg["backfill_days"] if empty else cfg["update_days"]
     since = dt.date.today() - dt.timedelta(days=days)
