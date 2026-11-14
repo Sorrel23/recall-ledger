@@ -1,0 +1,32 @@
+{
+ "fda-device-z-2740-2026": {
+  "id": "fda-device-z-2740-2026",
+  "slug": "device-z-2740-2026-brand-name-rio-ii-product-name-rio-ii-nasal-pillows-interface-mo",
+  "source": "FDA",
+  "category": "device",
+  "recall_number": "Z-2740-2026",
+  "event_id": "99247",
+  "title": "Brand Name: Rio\" II  Product Name: Rio\" II Nasal Pillows Interface  Model/Catalog... recall (3B Medical, Inc.)",
+  "product": "Brand Name: Rio\" II  Product Name: Rio\" II Nasal Pillows Interface  Model/Catalog Number: RII1001 (Small), RII1002 (Medium), RII1003 (Large)  Software Version: N/A  Product Description: Nasal pillows interface intended for use with positive airway pressure therapy devices. The device delivers airflow from a PAP device to the patient's nose and is secured using adjustable headgear.  Component: No",
+  "reason": "Packaging and labeling discrepancy involving product size identification and associated Unique Device Identifier (UDI/GTIN).",
+  "hazard_level": "Class II",
+  "company": "3B Medical, Inc.",
+  "company_location": "Dublin, OH, United States",
+  "date": "2023-06-15",
+  "report_date": "2026-07-22",
+  "classified_date": "2026-07-15",
+  "status": "Ongoing",
+  "voluntary": "Voluntary: Firm initiated",
+  "distribution": "US Nationwide distribution.",
+  "states": [],
+  "nationwide": true,
+  "quantity": "375",
+  "codes": "Lot Code: Affected Catalog Numbers: RII1001, RII1002, RII1003  Affected Lots RII1001: 220121 220121 220191  RII1002: 220121 220121 220191  RII1003: 220121 220121 220191",
+  "remedy": null,
+  "retailers": [],
+  "images": [],
+  "injuries": null,
+  "source_url": "https://api.fda.gov/device/enforcement.json?search=recall_number:%22Z-2740-2026%22",
+  "first_seen": "2026-11-14"
+ }
+}

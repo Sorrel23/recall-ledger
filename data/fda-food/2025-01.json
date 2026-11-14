@@ -1,0 +1,35 @@
+{
+ "fda-food-h-0191-2026": {
+  "id": "fda-food-h-0191-2026",
+  "slug": "food-h-0191-2026-item-il1014a-piggy-lotte-crispy-crunch-ice-cream-cone-strawberry-fla",
+  "source": "FDA",
+  "category": "food",
+  "recall_number": "H-0191-2026",
+  "event_id": "97886",
+  "title": "Item IL1014A recall (Seoul Trading, Inc.)",
+  "product": "Item IL1014A, PIGGY Lotte Crispy Crunch Ice Cream Cone, Strawberry flavor, Keep Frozen, (4/5/160ML), UPC 8801118255045. Product of Korea.  The label of recalled product declared: Ingredients: Cone snack, Strawberry syrup, Biscuit, Chocolate spray, Topping Chocolate, Ice cream mix (Sugar, Mixed milk powder, Processed Butter, Processed oligosaccharide, Mixed formulation, Natural vanilla flavor, synthetic vanilla flavor, water) CONTAIN: Milk.",
+  "reason": "Undeclared peanut.",
+  "hazard_level": "Class I",
+  "company": "Seoul Trading, Inc.",
+  "company_location": "Auburn, WA, United States",
+  "date": "2025-01-10",
+  "report_date": "2025-11-19",
+  "classified_date": "2025-11-13",
+  "status": "Terminated",
+  "voluntary": "Voluntary: Firm initiated",
+  "distribution": "Distributed in OR and WA",
+  "states": [
+   "OR",
+   "WA"
+  ],
+  "nationwide": false,
+  "quantity": "78 cases distributed",
+  "codes": "Expiration Date: 2/13/2026 Batch 240531-IL1014A-001",
+  "remedy": null,
+  "retailers": [],
+  "images": [],
+  "injuries": null,
+  "source_url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22H-0191-2026%22",
+  "first_seen": "2026-11-14"
+ }
+}

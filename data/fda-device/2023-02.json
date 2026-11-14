@@ -1,0 +1,32 @@
+{
+ "fda-device-z-0479-2026": {
+  "id": "fda-device-z-0479-2026",
+  "slug": "device-z-0479-2026-bear-implant-bridge-enhanced-acl-restoration-model-catalog-1000",
+  "source": "FDA",
+  "category": "device",
+  "recall_number": "Z-0479-2026",
+  "event_id": "97742",
+  "title": "BEAR Implant recall (Miach Orthopaedics)",
+  "product": "BEAR Implant (Bridge-Enhanced ACL Restoration);  Model/Catalog: 1000;",
+  "reason": "The field action was initiated in February of 2023 and was limited to the affected lot from sales force trunk stock only.",
+  "hazard_level": "Class II",
+  "company": "Miach Orthopaedics",
+  "company_location": "Westborough, MA, United States",
+  "date": "2023-02-02",
+  "report_date": "2025-11-19",
+  "classified_date": "2025-11-07",
+  "status": "Ongoing",
+  "voluntary": "Voluntary: Firm initiated",
+  "distribution": "US Nationwide distribution.",
+  "states": [],
+  "nationwide": true,
+  "quantity": "167 units",
+  "codes": "Model/Catalog: 1000; UDI-DI: 00860002987804;  Lot number: 7008409;",
+  "remedy": null,
+  "retailers": [],
+  "images": [],
+  "injuries": null,
+  "source_url": "https://api.fda.gov/device/enforcement.json?search=recall_number:%22Z-0479-2026%22",
+  "first_seen": "2026-11-14"
+ }
+}

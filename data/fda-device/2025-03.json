@@ -1,0 +1,35 @@
+{
+ "fda-device-z-1490-2026": {
+  "id": "fda-device-z-1490-2026",
+  "slug": "device-z-1490-2026-esaote-endocavity-ultrasonic-probe-model-e-3-12-ref-120000038",
+  "source": "FDA",
+  "category": "device",
+  "recall_number": "Z-1490-2026",
+  "event_id": "98339",
+  "title": "Esaote Endocavity ultrasonic probe recall (ESAOTE S.P.A.)",
+  "product": "Esaote Endocavity ultrasonic probe, Model E 3-12, REF 120000038",
+  "reason": "A potential weakness has been identified in the probe body, so that, in a specific production batch, liquid may leak from the terminal part of the casing near the cable.",
+  "hazard_level": "Class II",
+  "company": "ESAOTE S.P.A.",
+  "company_location": "Sesto Fiorentino, N/A, Italy",
+  "date": "2025-03-14",
+  "report_date": "2026-03-11",
+  "classified_date": "2026-03-03",
+  "status": "Completed",
+  "voluntary": "Voluntary: Firm initiated",
+  "distribution": "US: Nationwide distribution in the states of NC and TX.",
+  "states": [
+   "NC",
+   "TX"
+  ],
+  "nationwide": true,
+  "quantity": "5 units",
+  "codes": "UDI 0805604453891, Serial Numbers:  241700533C, 241700529C, 241700607C, 241700536C,  241700613C.",
+  "remedy": null,
+  "retailers": [],
+  "images": [],
+  "injuries": null,
+  "source_url": "https://api.fda.gov/device/enforcement.json?search=recall_number:%22Z-1490-2026%22",
+  "first_seen": "2026-11-14"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "fda-food-h-0671-2026": {
+  "id": "fda-food-h-0671-2026",
+  "slug": "food-h-0671-2026-spice-powder-4-oz-plastic-bag",
+  "source": "FDA",
+  "category": "food",
+  "recall_number": "H-0671-2026",
+  "event_id": "97213",
+  "title": "Spice Powder recall (Summit Import Corporation)",
+  "product": "Spice Powder, 4 oz, Plastic Bag",
+  "reason": "Lead level was higher than NYSAGM Standard.",
+  "hazard_level": "Class II",
+  "company": "Summit Import Corporation",
+  "company_location": "Jersey City, NJ, United States",
+  "date": "2024-10-17",
+  "report_date": "2026-04-29",
+  "classified_date": "2026-04-23",
+  "status": "Terminated",
+  "voluntary": "Voluntary: Firm initiated",
+  "distribution": "The recalled product was distributed to the following states: NY, NJ, SC, ME, FL, PA, MA, VA",
+  "states": [
+   "FL",
+   "MA",
+   "ME",
+   "NJ",
+   "NY",
+   "PA",
+   "SC",
+   "VA"
+  ],
+  "nationwide": false,
+  "quantity": "20 cases",
+  "codes": "06204",
+  "remedy": null,
+  "retailers": [],
+  "images": [],
+  "injuries": null,
+  "source_url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22H-0671-2026%22",
+  "first_seen": "2026-11-14"
+ }
+}

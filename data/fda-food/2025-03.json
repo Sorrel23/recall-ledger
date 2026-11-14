@@ -1,0 +1,32 @@
+{
+ "fda-food-h-0394-2026": {
+  "id": "fda-food-h-0394-2026",
+  "slug": "food-h-0394-2026-frosted-almond-20-lbs-bulk-no-upc-bulk-product-code-23208",
+  "source": "FDA",
+  "category": "food",
+  "recall_number": "H-0394-2026",
+  "event_id": "98143",
+  "title": "Frosted Almond recall (Sanders Candy Factory Inc)",
+  "product": "Frosted Almond; 20 lbs (bulk);  No UPC#  Bulk Product Code: 23208",
+  "reason": "elevated levels of aflatoxin",
+  "hazard_level": "Class II",
+  "company": "Sanders Candy Factory Inc",
+  "company_location": "Baldwin Park, CA, United States",
+  "date": "2025-03-25",
+  "report_date": "2026-01-21",
+  "classified_date": "2026-01-14",
+  "status": "Terminated",
+  "voluntary": "Voluntary: Firm initiated",
+  "distribution": "Product was distributed to one customer. Problem was identified by customer, and no affected product was distributed to consumers.",
+  "states": [],
+  "nationwide": false,
+  "quantity": "5,020 lbs",
+  "codes": "Lot codes: 058.25 & 070.25",
+  "remedy": null,
+  "retailers": [],
+  "images": [],
+  "injuries": null,
+  "source_url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22H-0394-2026%22",
+  "first_seen": "2026-11-14"
+ }
+}

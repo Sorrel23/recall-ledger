@@ -1,0 +1,37 @@
+{
+ "fda-device-z-2882-2026": {
+  "id": "fda-device-z-2882-2026",
+  "slug": "device-z-2882-2026-happiest-baby-inc-pre-loved-snoo-smart-sleeper-model-s1000",
+  "source": "FDA",
+  "category": "device",
+  "recall_number": "Z-2882-2026",
+  "event_id": "99365",
+  "title": "Happiest Baby recall (Happiest Baby, Inc)",
+  "product": "Happiest Baby, Inc  Pre-loved SNOO Smart Sleeper  Model:S1000",
+  "reason": "This recall is retroactively being reported. Refurbished bassinets failed to meet quality standards prior to distribution.",
+  "hazard_level": "Class II",
+  "company": "Happiest Baby, Inc",
+  "company_location": "Los Angeles, CA, United States",
+  "date": "2024-05-15",
+  "report_date": "2026-08-12",
+  "classified_date": "2026-08-04",
+  "status": "Ongoing",
+  "voluntary": "Voluntary: Firm initiated",
+  "distribution": "US Nationwide distribution in states of PA, WA, CA, NJ.",
+  "states": [
+   "CA",
+   "NJ",
+   "PA",
+   "WA"
+  ],
+  "nationwide": true,
+  "quantity": "4 units",
+  "codes": "Lot Code: 9677201861339395 3023201712722817  8714212700040040  0069193417621270",
+  "remedy": null,
+  "retailers": [],
+  "images": [],
+  "injuries": null,
+  "source_url": "https://api.fda.gov/device/enforcement.json?search=recall_number:%22Z-2882-2026%22",
+  "first_seen": "2026-11-14"
+ }
+}
