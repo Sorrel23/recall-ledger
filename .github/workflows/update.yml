@@ -1,0 +1,42 @@
+name: Update recalls
+
+on:
+  schedule:
+    - cron: "41 12 * * *"   # daily, 6:41 AM Central
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test
+        run: python tests/test_pipeline.py
+      - name: Fetch new recalls
+        env:
+          OPENFDA_API_KEY: ${{ secrets.OPENFDA_API_KEY }}
+        run: python scripts/fetch.py
+      - name: Check the site builds
+        run: python scripts/build.py
+      - name: Commit data
+        run: |
+          git config user.name "recall-bot"
+          git config user.email "recall-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Daily recall update $(date -u +%F)"
+          git push
+      # Give Cloudflare Pages a few minutes to deploy before pinging search engines
+      - name: Ping IndexNow
+        run: sleep 240 && python scripts/ping_indexnow.py
