@@ -3,7 +3,12 @@ name: Update recalls
 on:
   schedule:
     - cron: "41 12 * * *"   # daily, 6:41 AM Central
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      full_ping:
+        description: "Resubmit every page to IndexNow"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -39,4 +44,6 @@ jobs:
           git push
       # Give Cloudflare Pages a few minutes to deploy before pinging search engines
       - name: Ping IndexNow
+        env:
+          INDEXNOW_FULL: ${{ github.event.inputs.full_ping == 'true' && '1' || '0' }}
         run: sleep 240 && python scripts/ping_indexnow.py
