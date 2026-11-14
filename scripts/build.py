@@ -106,10 +106,14 @@ def class_tag(r):
     return f'<span class="tag {cls}">{e(hl)}</span>' if hl else ""
 
 
+def clip(t, n):
+    return t if len(t) <= n else t[:n].rsplit(" ", 1)[0].rstrip(",;:") + "..."
+
+
 def row(r):
     return (f'<li><a href="/recalls/{r["slug"]}/">{e(r["title"])}</a><br>'
             f'<span class="tag">{e(CAT_LABEL[r["category"]])}</span>{class_tag(r)}'
-            f'<small>{e(nice_date(r["date"]))} &middot; {e((r["reason"] or "")[:140])}</small></li>')
+            f'<small>Reported {e(nice_date(r.get("report_date") or r["date"]))} &middot; {e(clip(r["reason"] or "", 160))}</small></li>')
 
 
 def listing(rel_base, title, desc, recs, intro=""):
