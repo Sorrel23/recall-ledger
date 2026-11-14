@@ -1,7 +1,7 @@
 {
   "site_name": "Recall Ledger",
   "tagline": "Every U.S. food, drug, medical device and consumer product recall, in plain English, updated daily.",
-  "site_url": "https://example.com",
+  "site_url": "https://recall-ledger-8kb.pages.dev",
   "indexnow_key": "9d5af0399fcb9449d6bdcc66fefefb11",
   "backfill_days": 365,
   "update_days": 21,
