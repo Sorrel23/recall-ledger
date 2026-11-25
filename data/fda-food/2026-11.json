@@ -1,0 +1,35 @@
+{
+ "fda-food-h-0229-2027": {
+  "id": "fda-food-h-0229-2027",
+  "slug": "food-h-0229-2027-fresh-to-you-sausage-egg-cheese-biscuit-sandwich-net-weight-4-6-o",
+  "source": "FDA",
+  "category": "food",
+  "recall_number": "H-0229-2027",
+  "event_id": "100316",
+  "title": "Fresh To You Sausage recall (Fresh & Ready Foods LLC)",
+  "product": "Fresh To You Sausage, Egg & Cheese Biscuit Sandwich, net weight. 4.6 oz (131g). Refrigerated breakfast sandwich sold to the general population, packaging is flexible clear film package. UPC 8 40549 30168 4. Manufactured By: RFR Renton, WA 98057.",
+  "reason": "Possible Listeria monocytogenes contamination.",
+  "hazard_level": "Class I",
+  "company": "Fresh & Ready Foods LLC",
+  "company_location": "Renton, WA, United States",
+  "date": "2026-11-06",
+  "report_date": "2026-11-18",
+  "classified_date": "2026-11-23",
+  "status": "Ongoing",
+  "voluntary": "Voluntary: Firm initiated",
+  "distribution": "Distributed in OR and WA",
+  "states": [
+   "OR",
+   "WA"
+  ],
+  "nationwide": false,
+  "quantity": "2,414 units",
+  "codes": "Fresh Thru: 11/7 through 11/19",
+  "remedy": null,
+  "retailers": [],
+  "images": [],
+  "injuries": null,
+  "source_url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22H-0229-2027%22",
+  "first_seen": "2026-11-25"
+ }
+}
